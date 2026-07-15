@@ -1,1 +1,26 @@
-
+[
+  {
+    "id": 1,
+    "domain": "1.0 General Security Concepts",
+    "question": "Which of the following architectural models assumes that no user, device, or network is trusted by default, regardless of their location?",
+    "options": ["Defense in Depth", "Zero Trust", "Perimeter Security", "Role-Based Access Control"],
+    "answer": "Zero Trust",
+    "explanation": "Zero Trust mandates that trust is never granted implicitly, and verification is required for every user and device."
+  },
+  {
+    "id": 2,
+    "domain": "2.0 Threats, Vulnerabilities, and Mitigations",
+    "question": "An attacker encrypts a company's database and demands payment in cryptocurrency for the decryption key. What type of attack is this?",
+    "options": ["Phishing", "Ransomware", "Cryptojacking", "DDoS"],
+    "answer": "Ransomware",
+    "explanation": "Ransomware is malware designed to deny access to a computer system or data until a ransom is paid."
+  },
+  {
+    "id": 3,
+    "domain": "4.0 Operations and Incident Response",
+    "question": "Which document establishes the expected behavior of employees regarding the use of company-owned IT resources?",
+    "options": ["AUP (Acceptable Use Policy)", "SLA (Service Level Agreement)", "BIA (Business Impact Analysis)", "MOU (Memorandum of Understanding)"],
+    "answer": "AUP (Acceptable Use Policy)",
+    "explanation": "An AUP outlines what users can and cannot do on corporate devices and networks."
+  }
+]
