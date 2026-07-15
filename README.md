@@ -4,8 +4,8 @@ A lightweight, interactive web application to help you prepare for the CompTIA S
 
 ## 🚀 Live Demo
 
-Click here to take the practice quiz!
-(Note: Don't forget to update this link with your actual GitHub Pages URL!)
+Click [here](https://anomalous55.github.io/CompTIA-SecPlus-Practice-Exam/) to take the practice exam!
+
 
 ## ✨ Features
 
