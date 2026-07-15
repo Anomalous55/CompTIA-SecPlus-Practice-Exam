@@ -91,7 +91,11 @@ document.getElementById('next-btn').addEventListener('click', () => {
 function showResults() {
     quizScreen.classList.add('hidden');
     resultsScreen.classList.remove('hidden');
-    document.getElementById('score-display').innerText = `${score} / ${currentQuiz.length}`;
+
+    const percentage = ((score / currentQuiz.length) * 100).toFixed(1);
+
+    document.getElementById('score-display').innerText =
+        `${score} / ${currentQuiz.length} (${percentage}%)`;
 }
 
 document.getElementById('restart-btn').addEventListener('click', () => {
