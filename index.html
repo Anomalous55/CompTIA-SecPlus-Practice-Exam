@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SY0-701 Practice Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="setup-screen">
+            <h1>SY0-701 Practice Quiz</h1>
+            <p>Select the number of questions to attempt:</p>
+            <input type="number" id="question-count" value="3" min="1" max="100">
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden">
+            <div id="progress">Question 1 of X</div>
+            <h2 id="question-text">Question goes here</h2>
+            <div id="options-container"></div>
+            <div id="feedback" class="hidden"></div>
+            <button id="next-btn" class="hidden">Next Question</button>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="hidden">
+            <h2>Quiz Complete!</h2>
+            <p>Your Score: <span id="score-display"></span></p>
+            <button id="restart-btn">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
