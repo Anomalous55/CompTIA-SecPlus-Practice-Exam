@@ -2,19 +2,7 @@
 
 A lightweight, interactive web application to help you prepare for the CompTIA Security+ (SY0-701) certification exam. Test your knowledge across the five SY0-701 domains with randomized questions, instant feedback, and score tracking.
 
-## Live Demo
-
-Click [here](https://anomalous55.github.io/CompTIA-SecPlus-Practice-Exam/) to take the practice exam!
-
-## Project Structure
-
-CompTIA-Sec-Practice-Exam/
-├── index.html       # The main structure and UI of the quiz
-├── style.css        # Styling and layout
-├── script.js        # The quiz logic, state management, and scoring
-├── questions.json   # The database of questions and answers
-└── README.md        # Project documentation
-
+Click [here](https://anomalous55.github.io/CompTIA-SecPlus-Practice-Exam/) to take it!
 
 ## Local Development
 
